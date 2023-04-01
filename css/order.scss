@@ -4,7 +4,7 @@ $base-font: "Lato", sans-serif;
 /*section order*/
 
 section#order {
-  background: url("/img/order-bg.png") center no-repeat, #272733;
+  background: url("../img/order-bg.png") center no-repeat, #272733;
   width: 100%;
   padding: 8.8rem 0;
 }
@@ -24,7 +24,7 @@ section#order {
     z-index: 2;
 
     &::after {
-      content: url(/img/icons/circle.svg);
+      content: url("../img/icons/circle.svg");
       width: 6px;
       height: 6px;
       position: relative;
@@ -120,7 +120,7 @@ section#order {
       -moz-appearance: none;
       -webkit-appearance: none;
       appearance: none;
-      background-image: url("/img/icons/arrow-select.svg");
+      background-image: url("../img/icons/arrow-select.svg");
       background-repeat: no-repeat, repeat;
       background-position: right 0.7em top 50%, 0 0;
       background-size: 0.65em auto, 100%;
@@ -297,7 +297,7 @@ input[type="text"],
   text-transform: uppercase;
 
   &::before {
-    content: url("/img/icons/doc.svg");
+    content: url("../img/icons/doc.svg");
     position: relative;
     top: 14%;
     right: 10px;
@@ -346,27 +346,6 @@ input[type="text"],
   }
 }
 
-select {
-  outline: none;
 
-  &::-ms-expand {
-    display: none;
-  }
-}
 
-.activetrigger {
-  color: $primary-color;
-  background: rgba(61, 64, 80, 0.85);
-  border: none;
-  border-radius: 3px 3px 0px 0px;
 
-  &:hover {
-    background: url(/img/icons/select-arrow-close.png) 95% center no-repeat, rgba(61, 64, 80, 0.85);
-    color: $primary-color;
-  }
-
-  &:active {
-    background: url(/img/icons/select-arrow-close.png) 98% center no-repeat, rgba(61, 64, 80, 0.85);
-    color: $primary-color;
-  }
-}
