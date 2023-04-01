@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoremIpsum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/favicons/apple-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicons/favicon-16x16.png">
+  <link rel="icon" href="img/icons/favicons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="navbar">
+    <nav class="navbar-container container">
+      <a href="/" class="home-link">        
+        LoremIpsum.<span class="special-color">Net</span>
+      </a>
+      <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" aria-labelledby="navbar-toggle">
+        <ul class="navbar-links">
+          <li class="navbar-item active"><a class="navbar-link" href="#/about">Бизнес</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#/blog">О нас</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#/careers">Цены</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#/contact">Оформить заказ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="promo">
+    <div class="promo-wrap container">
+        <p class="promo-title"><span class="special-color">Lorem ipsum</span> dolor sit<br>ametconsectetur <span class="special-color">adipiscing</span></p>
+        <div class="promo-descr">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+          <ul class="promo-wrap__list">
+            <li>Totam rem aperiam eaque ipsa</li>
+            <li>Sit voluptatem accusantium doloremque laudantium</li>
+            <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+          </ul>
+        </div>
+        <div class="promo-btn">
+          <button class="btn btn-color">заказать</button>
+          <button class="btn btn-light">подробнее</button>          
+        </div>
+    </div>
+  </div>
+  <section id="order">
+    <div class="container">
+      <h1>Оформление <span class="special-color">заказа</span></h1>
+      <p class="h1-subtext">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+      <div class="steps">
+        <ul class="step-list">
+          <li class="step-list__item">
+            <div class="step-list__item-img">
+              <img src="/img/icons/search.svg" alt="search" class="icon icon-search">
+            </div>
+            <div class="step-list__item-text">
+              Lorem ipsum dolorsit amet
+            </div>
+          </li>
+          <li class="step-list__item">
+            <div class="step-list__item-img">
+              <img src="/img/icons/percent.svg" alt="search" class="icon icon-percent">
+            </div>
+            <div class="step-list__item-text">
+            Сonsecteturadipiscing elit
+            </div>
+          </li>
+          <li class="step-list__item">
+            <div class="step-list__item-img">
+              <img src="/img/icons/subtract.svg" alt="search" class="icon">
+            </div>
+            <div class="step-list__item-text">
+              Sed do eiusmod tempor
+            </div>
+          </li>
+          <li class="step-list__item">
+            <div class="step-list__item-img">
+              <img src="/img/icons/mail.svg" alt="search" class="icon">
+            </div>
+            <div class="step-list__item-text">
+            Esse cillum doloreeu fugiat
+            </div>
+          </li>
+          <li class="step-list__item">
+            <div class="step-list__item-img">
+              <img src="/img/icons/currency.svg" alt="search" class="icon">
+            </div>
+            <div class="step-list__item-text">
+              Excepteur sint occaecat cupidatat non proident
+            </div>
+          </li>
+        </ul>
+      </div>
+      <form action="" class="order-form">
+        <div class="order-form__field" id="field-select">
+<!--         <select id="typeSystem" class="order-form__field-select"  name="month" data-placeholder="Select month:">
+              <option value="" disabled selected hidden>Выберите тип системы</option>
+              <option value='type1'>type1</option>
+              <option value='type2'>type2</option>
+              <option value='type3'>type2</option>
+             
+          </select>   -->
+         <select class="turnintodropdown">
+            <option>Выберите тип системы</option>
+            <option>Sed ut perspiciatis</option>
+            <option>Nemo enim ipsam</option>
+            <option>Et harum quidem</option>
+            <option>Temporibus autem</option>
+            <option>Itaque earum rerum</option>
+            <option>Sed ut perspiciatis</option>
+            <option>Nemo enim ipsam</option>
+            <option>Et harum quidem</option>
+            <option>Temporibus autem</option>
+            <option>Itaque earum rerum</option>
+        </select>
+ 
+        </div>
+        <div class="order-form__field" id="field-email" >
+          <input type="email" name="" placeholder="Ваш e-mail" class="">
+        </div>
+        <div class="order-form__field" id="field-name">
+          <input type="text" name=""  placeholder="Ваше имя">
+        </div>
+        <div class="order-form__field" id="field-range">
+          <label for="range" class="order-form__field-range">Sed ut perspiciatis, unde omnis iste natus  
+            <span class="percent-value">0%</span>
+          </label>
+          <input type="range" min="1" max="100" value="50" class="field-range" id="percent">
+         
+        </div>
+        <div class="order-form__field" id="field-file">
+          <label class="input-file">
+            <input type="file" class="field-file" name="file" access="false" multiple="false" id="">		
+              <span class="field-file__text">Прикрепить файл</span>
+          </label>
+    
+        </div>
+        <div class="order-form__field order-form__button" id="field-btn">
+          <button type="button" class="btn-color btn" name="" access="false" id="0">Отправить</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-contacts">
+      <div class="footer-contacts__coopyright">© 2018 <span>«LoremIpsum.net»</span> Все права защищены.</div>
+      <div class="footer-contacts__wallets">
+        <ul class="footer-contacts__wallets-list">
+          <li class="wallets-item">
+           <a href="#">
+              <span>
+                <img src="/img/icons/qiwi.svg" alt="Qiwi wallet" class="footer-icon"> QIWI wallet
+              </span>
+            </a>
+          </li>
+          <li class="wallets-item">
+            <a href="#">
+              <span>
+                <img src="/img/icons/YandexMoney.svg" alt="Yandex Money" class="footer-icon"> Yandex Money
+              </span>
+            </a>
+          </li>
+          <li class="wallets-item">  
+            <a href="#">
+              <span>
+                <img src="/img/icons/WebMoney.svg" alt="Web Money" class="footer-icon"> Web Money 
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-contacts__link">
+        <div class="footer-contacts__email">
+          <a href="mailto:info@ipsum228.com">
+            <span>
+              <img src="/img/icons/mail2.svg" alt="email" class="footer-icon"> 
+              info@ipsum228.com            
+            </span>
+          </a>
+        </div>
+        <div class="footer-contacts__vk">
+          <a href="#">
+            <span>
+              <img src="/img/icons/vk.svg" alt="vl" class="footer-icon"> 
+              Мы вконтакте
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>   
+  </footer>
+  <script type='text/javascript' src='js/select.js' defer></script>
+  <script type='text/javascript' src='js/navbar.js' async></script>
+  <script type='text/javascript' src='js/percent.js' defer></script>  
+</body>
+</html>
