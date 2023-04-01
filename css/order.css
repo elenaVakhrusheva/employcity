@@ -1,0 +1,330 @@
+/*section order*/
+/* line 6, order.scss */
+section#order {
+  background: url("../img/order-bg.png") center no-repeat, #272733;
+  width: 100%;
+  padding: 8.8rem 0; }
+
+/* line 12, order.scss */
+.steps {
+  margin: 3.5rem auto 4.7rem auto; }
+
+/* line 16, order.scss */
+.step-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  /* line 21, order.scss */
+  .step-list__item {
+    display: flex;
+    flex-direction: column;
+    z-index: 2; }
+    /* line 26, order.scss */
+    .step-list__item::after {
+      content: url("../img/icons/circle.svg");
+      width: 6px;
+      height: 6px;
+      position: relative;
+      right: -80%;
+      top: -60%;
+      filter: drop-shadow(2ch 0 0 white) drop-shadow(4ch 0 0 white) drop-shadow(6ch 0 0 white);
+      z-index: 1; }
+    /* line 37, order.scss */
+    .step-list__item:nth-last-child(1):after {
+      content: none; }
+    /* line 41, order.scss */
+    .step-list__item-img {
+      width: 5.8rem;
+      height: 5.8rem;
+      background: #3e9cdc;
+      border: 5px solid #286690;
+      border-radius: 50px;
+      margin: 1.1rem 3rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    /* line 55, order.scss */
+    .step-list__item-text {
+      text-align: center;
+      max-width: 188px;
+      line-height: 19px;
+      font-size: 0.8rem;
+      margin: 0 auto; }
+
+/* order-form*/
+/* line 67, order.scss */
+.order-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "sel inp1 inp2" "range range file" "btn btn btn";
+  gap: 1.7rem;
+  height: 100%;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  justify-items: stretch;
+  justify-content: center; }
+  /* line 83, order.scss */
+  .order-form__field {
+    width: 100%;
+    justify-self: stretch;
+    font-family: "Lato", sans-serif; }
+    /* line 88, order.scss */
+    .order-form__field input:-ms-input-placeholder {
+      color: #272733;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    /* line 94, order.scss */
+    .order-form__field input::-webkit-input-placeholder {
+      color: #272733;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    /* line 100, order.scss */
+    .order-form__field input::-moz-placeholder {
+      color: #272733;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    /* line 106, order.scss */
+    .order-form__field input:-moz-placeholder {
+      color: #272733;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    /* line 112, order.scss */
+    .order-form__field input:-ms-input-placeholder {
+      color: #272733;
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    /* line 119, order.scss */
+    .order-form__field-select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-image: url("../img/icons/arrow-select.svg");
+      background-repeat: no-repeat, repeat;
+      background-position: right 0.7em top 50%, 0 0;
+      background-size: 0.65em auto, 100%;
+      height: auto; }
+      /* line 129, order.scss */
+      .order-form__field-select::-ms-expand {
+        display: none; }
+      /* line 132, order.scss */
+      .order-form__field-select:hover {
+        border-color: #888; }
+      /* line 135, order.scss */
+      .order-form__field-select:focus {
+        border-color: #aaa;
+        box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+        box-shadow: 0 0 0 3px -moz-mac-focusring;
+        color: #222;
+        outline: none; }
+      /* line 142, order.scss */
+      .order-form__field-select optgroup, .order-form__field-select option {
+        font-weight: normal;
+        color: #222; }
+
+/* line 151, order.scss */
+#field-select {
+  grid-area: sel;
+  position: relative; }
+
+/* line 156, order.scss */
+#field-email {
+  grid-area: inp1; }
+
+/* line 160, order.scss */
+#field-name {
+  grid-area: inp2; }
+
+/* line 164, order.scss */
+#field-range {
+  grid-area: range; }
+
+/* line 168, order.scss */
+#field-file {
+  grid-area: file; }
+
+/* line 172, order.scss */
+#field-btn {
+  grid-area: btn;
+  text-align: center; }
+
+/* line 176, order.scss */
+input[type="email"]:hover,
+input[type="text"]:hover {
+  background: rgba(61, 64, 80, 0.85); }
+  /* line 180, order.scss */
+  input[type="email"]:hover:-ms-input-placeholder,
+  input[type="text"]:hover:-ms-input-placeholder {
+    color: #fff; }
+  /* line 183, order.scss */
+  input[type="email"]:hover::-webkit-input-placeholder,
+  input[type="text"]:hover::-webkit-input-placeholder {
+    color: #fff; }
+  /* line 186, order.scss */
+  input[type="email"]:hover::-moz-placeholder,
+  input[type="text"]:hover::-moz-placeholder {
+    color: #fff; }
+  /* line 189, order.scss */
+  input[type="email"]:hover:-moz-placeholder,
+  input[type="text"]:hover:-moz-placeholder {
+    color: #fff; }
+  /* line 192, order.scss */
+  input[type="email"]:hover:-ms-input-placeholder,
+  input[type="text"]:hover:-ms-input-placeholder {
+    color: #fff; }
+
+/* line 197, order.scss */
+input[type="email"],
+input[type="text"],
+.order-form__field-select,
+.activetrigger {
+  background-color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  color: #272733;
+  padding: 0.6em 1em 0.7em 0.6em;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 3px;
+  outline: none;
+  border: none; }
+
+/* line 214, order.scss */
+*[dir="rtl"] .order-form__field-select,
+:root:lang(ar) .order-form__field-select,
+:root:lang(iw) .order-form__field-select {
+  background-position: left 0.7em top 50%, 0 0;
+  padding: 0.6em 0.8em 0.5em 1.4em; }
+
+/* line 221, order.scss */
+.field-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #fff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  padding: 0; }
+  /* line 232, order.scss */
+  .field-range :hover {
+    opacity: 1; }
+  /* line 236, order.scss */
+  .field-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 23px;
+    background: #42a9ed;
+    border: 3px solid #286690;
+    cursor: pointer;
+    border-radius: 50%; }
+  /* line 247, order.scss */
+  .field-range::-moz-range-thumb {
+    width: 23px;
+    height: 23px;
+    background: #42a9ed;
+    border: 3px solid #286690;
+    cursor: pointer;
+    border-radius: 50%; }
+
+/* line 257, order.scss */
+#percent {
+  outline: none;
+  -webkit-appearance: none; }
+  /* line 261, order.scss */
+  #percent::-webkit-slider-thumb {
+    -webkit-appearance: none; }
+
+/* line 266, order.scss */
+.percent-value {
+  float: right; }
+
+/* line 269, order.scss */
+.input-file {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  border-radius: 3px;
+  font-weight: 600; }
+
+/* line 278, order.scss */
+.field-file__text {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  box-sizing: border-box;
+  margin: 0;
+  transition: background-color 0.2s;
+  border: 2px solid #3e9cdc;
+  font-size: 0.8rem;
+  color: #272733;
+  text-transform: uppercase; }
+  /* line 299, order.scss */
+  .field-file__text::before {
+    content: url("../img/icons/doc.svg");
+    position: relative;
+    top: 14%;
+    right: 10px; }
+
+/* line 307, order.scss */
+.input-file input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0; }
+  /* line 315, order.scss */
+  .input-file input[type="file"]:focus + span {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+
+/* line 320, order.scss */
+.field-file__text:hover {
+  background-color: #3e9cdc;
+  color: #fff;
+  border: 1px solid #fff; }
+
+/* line 325, order.scss */
+.input-file:active span {
+  background-color: #3e9cdc; }
+
+/* line 329, order.scss */
+.input-file input[type="file"]:disabled + span {
+  background-color: #eee; }
+
+/* line 333, order.scss */
+.field-file__icon {
+  width: 1rem; }
+
+/* line 337, order.scss */
+.icon {
+  max-width: 38px; }
+  /* line 340, order.scss */
+  .icon-percent {
+    max-width: 30px; }
+  /* line 344, order.scss */
+  .icon-search {
+    max-width: 33px; }
+
+/*# sourceMappingURL=order.css.map */

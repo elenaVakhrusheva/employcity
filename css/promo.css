@@ -1,0 +1,49 @@
+/* ============ promo ============ */
+/* line 5, promo.scss */
+.promo {
+  background: url("../img/promo-bg.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  /* line 14, promo.scss */
+  .promo-wrap {
+    width: 100%;
+    margin-bottom: 8.8rem; }
+    /* line 18, promo.scss */
+    .promo-wrap__list {
+      margin-bottom: 4.7rem;
+      list-style-type: none; }
+      /* line 22, promo.scss */
+      .promo-wrap__list li::before {
+        content: "-";
+        margin: 0 11px; }
+  /* line 29, promo.scss */
+  .promo-descr p, .promo-descr ul, .promo-descr li {
+    color: #000;
+    font-size: 1.1rem; }
+  /* line 36, promo.scss */
+  .promo-descr p {
+    font-weight: 700; }
+  /* line 40, promo.scss */
+  .promo-title {
+    color: #000;
+    margin-bottom: 4.7rem;
+    margin-top: 6rem; }
+  /* line 46, promo.scss */
+  .promo-title, .promo-title .special-color {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    text-transform: uppercase; }
+  /* line 54, promo.scss */
+  .promo-btn button {
+    max-width: 183px;
+    height: 100%;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    padding: 15px 30px; }
+
+/*# sourceMappingURL=promo.css.map */

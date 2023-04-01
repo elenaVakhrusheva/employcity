@@ -1,0 +1,118 @@
+/* ============ header ============ */
+/* line 8, header.scss */
+#navbar {
+  position: fixed;
+  height: 64px;
+  background-color: rgba(16, 16, 29, 0.9);
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 6; }
+  /* line 17, header.scss */
+  #navbar-toggle {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    /* line 28, header.scss */
+    #navbar-toggle:is(:focus, :hover) .icon-bar {
+      background-color: #286690; }
+    /* line 32, header.scss */
+    #navbar-toggle[aria-expanded="true"] .icon-bar:is(:first-child, :last-child) {
+      position: absolute;
+      margin: 0;
+      width: 30px; }
+    /* line 38, header.scss */
+    #navbar-toggle[aria-expanded="true"] .icon-bar:first-child {
+      transform: rotate(45deg); }
+    /* line 42, header.scss */
+    #navbar-toggle[aria-expanded="true"] .icon-bar:nth-child(2) {
+      opacity: 0; }
+    /* line 46, header.scss */
+    #navbar-toggle[aria-expanded="true"] .icon-bar:last-child {
+      transform: rotate(-45deg); }
+    /* line 50, header.scss */
+    #navbar-toggle[aria-expanded="true"] + #navbar-menu {
+      background-color: #000;
+      opacity: 1;
+      visibility: visible; }
+    /* line 56, header.scss */
+    #navbar-toggle[aria-expanded="true"] + #navbar-menu .navbar-links {
+      padding: 1em; }
+  /* line 61, header.scss */
+  #navbar-menu {
+    position: fixed;
+    top: 64px;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    left: 0;
+    right: 0; }
+
+/* line 71, header.scss */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center; }
+
+/* line 77, header.scss */
+.navbar-item {
+  margin: 0.4em;
+  width: auto; }
+
+/* line 82, header.scss */
+.home-link,
+.home-link span {
+  font-family: "Raleway";
+  text-decoration: none;
+  display: flex;
+  font-weight: 800;
+  align-items: center;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: uppercase; }
+
+/* line 94, header.scss */
+.navbar-link {
+  justify-content: center;
+  width: 100%;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none; }
+  /* line 104, header.scss */
+  .navbar-link:is(:focus, :hover) {
+    color: #286690; }
+
+/* line 109, header.scss */
+.icon-bar {
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin: 2px;
+  background-color: #fff; }
+
+/* line 117, header.scss */
+.navbar-links {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
+
+/* line 128, header.scss */
+.navbar-item.active .navbar-link {
+  color: #43abf0; }
+
+/*# sourceMappingURL=header.css.map */

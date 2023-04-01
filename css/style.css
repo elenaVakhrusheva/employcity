@@ -150,7 +150,7 @@
 /* ============ promo ============ */
 /* line 5, promo.scss */
 .promo {
-  background: url("/img/promo-bg.jpg") center no-repeat;
+  background: url("../img/promo-bg.jpg") center no-repeat;
   background-size: cover;
   min-height: 100vh;
   width: 100%;
@@ -205,7 +205,7 @@
 /*section order*/
 /* line 6, order.scss */
 section#order {
-  background: url("/img/order-bg.png") center no-repeat, #272733;
+  background: url("../img/order-bg.png") center no-repeat, #272733;
   width: 100%;
   padding: 8.8rem 0; }
 
@@ -237,7 +237,7 @@ section#order {
     z-index: 2; }
     /* line 26, order.scss */
     .step-list__item::after {
-      content: url(/img/icons/circle.svg);
+      content: url("../img/icons/circle.svg");
       width: 6px;
       height: 6px;
       position: relative;
@@ -330,7 +330,7 @@ section#order {
       -moz-appearance: none;
       -webkit-appearance: none;
       appearance: none;
-      background-image: url("/img/icons/arrow-select.svg");
+      background-image: url("../img/icons/arrow-select.svg");
       background-repeat: no-repeat, repeat;
       background-position: right 0.7em top 50%, 0 0;
       background-size: 0.65em auto, 100%;
@@ -510,7 +510,7 @@ input[type="text"],
   text-transform: uppercase; }
   /* line 299, order.scss */
   .field-file__text::before {
-    content: url("/img/icons/doc.svg");
+    content: url("../img/icons/doc.svg");
     position: relative;
     top: 14%;
     right: 10px; }
@@ -556,29 +556,14 @@ input[type="text"],
   .icon-search {
     max-width: 33px; }
 
-/* line 349, order.scss */
+/* line 3, select.scss */
 select {
   outline: none; }
-  /* line 352, order.scss */
+  /* line 6, select.scss */
   select::-ms-expand {
     display: none; }
 
-/* line 357, order.scss */
-.activetrigger {
-  color: #fff;
-  background: rgba(61, 64, 80, 0.85);
-  border: none;
-  border-radius: 3px 3px 0px 0px; }
-  /* line 363, order.scss */
-  .activetrigger:hover {
-    background: url(/img/icons/select-arrow-close.png) 95% center no-repeat, rgba(61, 64, 80, 0.85);
-    color: #fff; }
-  /* line 368, order.scss */
-  .activetrigger:active {
-    background: url(/img/icons/select-arrow-close.png) 98% center no-repeat, rgba(61, 64, 80, 0.85);
-    color: #fff; }
-
-/* line 1, select.scss */
+/* line 11, select.scss */
 .dropcontainer {
   font-size: 16px;
   color: #777;
@@ -593,7 +578,7 @@ select {
   border-left: 1px solid #3d4050;
   border-right: 1px solid #3d4050;
   border-bottom: 1px solid #3d4050; }
-  /* line 16, select.scss */
+  /* line 26, select.scss */
   .dropcontainer ul {
     font-size: 16px;
     border: none;
@@ -605,47 +590,47 @@ select {
     z-index: 7;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 29, select.scss */
+    /* line 39, select.scss */
     .dropcontainer ul li {
       padding: 5px;
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
-      /* line 36, select.scss */
+      /* line 46, select.scss */
       .dropcontainer ul li:hover {
         background: transparent; }
-      /* line 40, select.scss */
+      /* line 50, select.scss */
       .dropcontainer ul li a:hover {
         color: #42a9ed;
         outline: none; }
-      /* line 45, select.scss */
+      /* line 55, select.scss */
       .dropcontainer ul li:first-child {
         display: none; }
-      /* line 49, select.scss */
+      /* line 59, select.scss */
       .dropcontainer ul li:last-child {
         border-bottom: none; }
-  /* line 55, select.scss */
+  /* line 65, select.scss */
   .dropcontainer::-webkit-scrollbar {
     width: 7px; }
-  /* line 59, select.scss */
+  /* line 69, select.scss */
   .dropcontainer::-webkit-scrollbar-track {
     background-color: #3d4050;
     border-radius: 3px; }
-  /* line 64, select.scss */
+  /* line 74, select.scss */
   .dropcontainer::-webkit-scrollbar-thumb {
     border-radius: 3px;
     background: #3e9cdc; }
 
-/* line 70, select.scss */
+/* line 80, select.scss */
 .dropdownhidden {
   display: none; }
 
-/* line 74, select.scss */
+/* line 84, select.scss */
 .dropdownvisible {
   height: auto; }
 
-/* line 78, select.scss */
+/* line 88, select.scss */
 .trigger {
-  background: url(/img/icons/arrow-select.svg) 95% center no-repeat, rgba(255, 255, 255, 0.85);
+  background: url("../img/icons/arrow-select.svg") 95% center no-repeat, rgba(255, 255, 255, 0.85);
   font-size: 1rem;
   line-height: 24px;
   color: #272733;
@@ -659,12 +644,12 @@ select {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   text-decoration: none; }
-  /* line 97, select.scss */
+  /* line 107, select.scss */
   .trigger:hover {
     color: #fff;
-    background: url(/img/icons/arrow-select.svg) 95% center no-repeat, rgba(61, 64, 80, 0.85); }
+    background: url("../img/icons/arrow-select.svg") 95% center no-repeat, rgba(61, 64, 80, 0.85); }
 
-/* line 103, select.scss */
+/* line 113, select.scss */
 .activetrigger {
   color: #fff;
   background: rgba(61, 64, 80, 0.85);
@@ -676,13 +661,13 @@ select {
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 116, select.scss */
+  /* line 126, select.scss */
   .activetrigger:hover {
-    background: url(/img/icons/select-arrow-close.png) 95% center no-repeat, rgba(61, 64, 80, 0.85);
+    background: url("../img/icons/select-arrow-close.png") 95% center no-repeat, rgba(61, 64, 80, 0.85);
     color: #fff; }
-  /* line 121, select.scss */
+  /* line 131, select.scss */
   .activetrigger:active {
-    background: url(/img/icons/select-arrow-close.png) 98% center no-repeat, rgba(61, 64, 80, 0.85);
+    background: url("../img/icons/select-arrow-close.png") 98% center no-repeat, rgba(61, 64, 80, 0.85);
     color: #fff; }
 
 /* ===== Footer ====*/

@@ -1,0 +1,83 @@
+/* ===== Footer ====*/
+/* line 4, footer.scss */
+.footer {
+  background: #3d4050;
+  padding: 30px 0; }
+  /* line 8, footer.scss */
+  .footer-contacts {
+    width: 100%;
+    justify-content: space-between; }
+    /* line 12, footer.scss */
+    .footer-contacts div {
+      width: 100%;
+      line-height: 100%; }
+      /* line 16, footer.scss */
+      .footer-contacts div + div:before {
+        content: " | ";
+        padding: 0 40px;
+        color: #c3c3c3; }
+    /* line 23, footer.scss */
+    .footer-contacts__vk .footer-icon {
+      width: 10px; }
+    /* line 27, footer.scss */
+    .footer-contacts__vk:before {
+      content: none !important; }
+    /* line 31, footer.scss */
+    .footer-contacts, .footer-contacts__wallets {
+      display: flex;
+      flex-direction: row; }
+    /* line 37, footer.scss */
+    .footer-contacts__coopyright {
+      flex-grow: 2;
+      flex-basis: 27%; }
+      /* line 41, footer.scss */
+      .footer-contacts__coopyright span {
+        font-size: 13px;
+        line-height: 16px;
+        text-transform: uppercase; }
+    /* line 48, footer.scss */
+    .footer-contacts__wallets {
+      flex-grow: 3;
+      flex-basis: 40%; }
+      /* line 52, footer.scss */
+      .footer-contacts__wallets-list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style-type: none; }
+    /* line 60, footer.scss */
+    .footer-contacts__link {
+      width: 100%;
+      flex-grow: 1;
+      flex-basis: 35%;
+      display: flex; }
+    /* line 67, footer.scss */
+    .footer-contacts__email span:hover, .footer-contacts__vk span:hover {
+      color: #3e9cdc; }
+
+/* line 74, footer.scss */
+.footer-contacts__coopyright,
+.wallets-item span,
+.footer-contacts__email span,
+.footer-contacts__vk span {
+  font-size: 0.7rem; }
+
+/* line 81, footer.scss */
+.wallets-item {
+  width: 100%;
+  line-height: 100%; }
+  /* line 85, footer.scss */
+  .wallets-item span {
+    color: #c3c3c3; }
+    /* line 88, footer.scss */
+    .wallets-item span:hover {
+      color: #3e9cdc; }
+
+/* line 94, footer.scss */
+.footer-icon {
+  max-width: 1.1rem;
+  float: left;
+  margin-right: 0.8rem;
+  height: 22px; }
+
+/*# sourceMappingURL=footer.css.map */
