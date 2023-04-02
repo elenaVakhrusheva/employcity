@@ -1061,7 +1061,7 @@ img {
         flex-wrap: wrap; }
 
   /* line 298, style.scss */
-  .step-list__item-img:nth-last-child(1) {
+  .step-list__item:nth-last-child(1) .step-list__item-img {
     margin-left: 4.5rem; } }
 @media (max-width: 375px) {
   /* line 304, style.scss */

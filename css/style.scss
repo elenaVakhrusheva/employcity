@@ -295,7 +295,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .step-list__item-img:nth-last-child(1) {
+  .step-list__item:nth-last-child(1) .step-list__item-img {
     margin-left: 4.5rem;
   }
 }
