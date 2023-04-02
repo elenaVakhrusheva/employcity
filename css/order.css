@@ -198,13 +198,6 @@ input[type="text"],
   border: none; }
 
 /* line 215, order.scss */
-*[dir="rtl"] .order-form__field-select,
-:root:lang(ar) .order-form__field-select,
-:root:lang(iw) .order-form__field-select {
-  background-position: left 0.7em top 50%, 0 0;
-  padding: 0.6em 0.8em 0.5em 1.4em; }
-
-/* line 222, order.scss */
 .field-range {
   -webkit-appearance: none;
   width: 100%;
@@ -215,10 +208,10 @@ input[type="text"],
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   padding: 0; }
-  /* line 233, order.scss */
+  /* line 226, order.scss */
   .field-range :hover {
     opacity: 1; }
-  /* line 237, order.scss */
+  /* line 230, order.scss */
   .field-range::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -228,7 +221,7 @@ input[type="text"],
     border: 3px solid #286690;
     cursor: pointer;
     border-radius: 50%; }
-  /* line 248, order.scss */
+  /* line 241, order.scss */
   .field-range::-moz-range-thumb {
     width: 23px;
     height: 23px;
@@ -237,19 +230,19 @@ input[type="text"],
     cursor: pointer;
     border-radius: 50%; }
 
-/* line 258, order.scss */
+/* line 251, order.scss */
 #percent {
   outline: none;
   -webkit-appearance: none; }
-  /* line 262, order.scss */
+  /* line 255, order.scss */
   #percent::-webkit-slider-thumb {
     -webkit-appearance: none; }
 
-/* line 267, order.scss */
+/* line 260, order.scss */
 .percent-value {
   float: right; }
 
-/* line 270, order.scss */
+/* line 263, order.scss */
 .input-file {
   position: relative;
   display: inline-block;
@@ -258,7 +251,7 @@ input[type="text"],
   border-radius: 3px;
   font-weight: 600; }
 
-/* line 279, order.scss */
+/* line 272, order.scss */
 .field-file__text {
   position: relative;
   display: inline-block;
@@ -279,14 +272,14 @@ input[type="text"],
   font-size: 0.8rem;
   color: #272733;
   text-transform: uppercase; }
-  /* line 300, order.scss */
+  /* line 293, order.scss */
   .field-file__text::before {
     content: url("../img/icons/doc.svg");
     position: relative;
     top: 14%;
     right: 10px; }
 
-/* line 308, order.scss */
+/* line 301, order.scss */
 .input-file input[type="file"] {
   position: absolute;
   z-index: -1;
@@ -294,35 +287,35 @@ input[type="text"],
   display: block;
   width: 0;
   height: 0; }
-  /* line 316, order.scss */
+  /* line 309, order.scss */
   .input-file input[type="file"]:focus + span {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
-/* line 321, order.scss */
+/* line 314, order.scss */
 .field-file__text:hover {
   background-color: #3e9cdc;
   color: #fff;
   border: 1px solid #fff; }
 
-/* line 326, order.scss */
+/* line 319, order.scss */
 .input-file:active span {
   background-color: #3e9cdc; }
 
-/* line 330, order.scss */
+/* line 323, order.scss */
 .input-file input[type="file"]:disabled + span {
   background-color: #eee; }
 
-/* line 334, order.scss */
+/* line 327, order.scss */
 .field-file__icon {
   width: 1rem; }
 
-/* line 338, order.scss */
+/* line 331, order.scss */
 .icon {
   max-width: 38px; }
-  /* line 341, order.scss */
+  /* line 334, order.scss */
   .icon-percent {
     max-width: 30px; }
-  /* line 345, order.scss */
+  /* line 338, order.scss */
   .icon-search {
     max-width: 33px; }
 

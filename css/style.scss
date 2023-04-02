@@ -294,6 +294,10 @@ img {
   .footer-contacts__link {
     flex-wrap: wrap;
   }
+
+  .step-list__item-img:nth-last-child(1) {
+    margin-left: 4.5rem;
+  }
 }
 
 @media (max-width: 375px) {

@@ -212,13 +212,6 @@ input[type="text"],
   border: none;
 }
 
-*[dir="rtl"] .order-form__field-select,
-:root:lang(ar) .order-form__field-select,
-:root:lang(iw) .order-form__field-select {
-  background-position: left 0.7em top 50%, 0 0;
-  padding: 0.6em 0.8em 0.5em 1.4em;
-}
-
 .field-range {
   -webkit-appearance: none;
   width: 100%;
