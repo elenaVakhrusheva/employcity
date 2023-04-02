@@ -283,6 +283,17 @@ img {
   .step-list__item-text {
     font-size: 1rem;
   }
+  .footer-contacts__coopyright,
+  .wallets-item span,
+  .footer-contacts__email span,
+  .footer-contacts__vk span {
+    font-size: 1rem;
+    line-height: 172%;
+  }
+  .footer-contacts__wallets-list,
+  .footer-contacts__link {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 375px) {

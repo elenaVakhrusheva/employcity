@@ -1,10 +1,11 @@
 $primary-color: #fff;
 $base-font: "Lato", sans-serif;
-
-/*section order*/
+$secondary-color: #272733;
+$special-color: #3e9cdc;
+$navbar-text-color-focus: #286690;
 
 section#order {
-  background: url("../img/order-bg.png") center no-repeat, #272733;
+  background: url("../img/order-bg.png") center no-repeat, $secondary-color;
   width: 100%;
   padding: 8.8rem 0;
 }
@@ -41,7 +42,7 @@ section#order {
     &-img {
       width: 5.8rem;
       height: 5.8rem;
-      background: #3e9cdc;
+      background: $special-color;
       border: 5px solid #286690;
       border-radius: 50px;
       margin: 1.1rem 3rem;
@@ -86,31 +87,31 @@ section#order {
     font-family: $base-font;
 
     input:-ms-input-placeholder {
-      color: #272733;
+      color: $secondary-color;
       font-size: 1rem;
       font-family: $base-font;
       opacity: 1;
     }
     input::-webkit-input-placeholder {
-      color: #272733;
+      color: $secondary-color;
       font-size: 1rem;
       font-family: $base-font;
       opacity: 1;
     }
     input::-moz-placeholder {
-      color: #272733;
+      color: $secondary-color;
       font-size: 1rem;
       font-family: $base-font;
       opacity: 1;
     }
     input:-moz-placeholder {
-      color: #272733;
+      color: $secondary-color;
       font-size: 1rem;
       font-family: $base-font;
       opacity: 1;
     }
     input:-ms-input-placeholder {
-      color: #272733;
+      color: $secondary-color;
       font-size: 1rem;
       font-family: $base-font;
       opacity: 1;
@@ -200,7 +201,7 @@ input[type="text"],
 .activetrigger {
   background-color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;
-  color: #272733;
+  color: $secondary-color;
   padding: 0.6em 1em 0.7em 0.6em;
   width: 100%;
   height: 48px;
@@ -222,7 +223,7 @@ input[type="text"],
   -webkit-appearance: none;
   width: 100%;
   height: 6px;
-  background: #fff;
+  background: $primary-color;
   outline: none;
   opacity: 0.7;
   -webkit-transition: 0.2s;
@@ -239,7 +240,7 @@ input[type="text"],
     width: 23px;
     height: 23px;
     background: #42a9ed;
-    border: 3px solid #286690;
+    border: 3px solid $navbar-text-color-focus;
     cursor: pointer;
     border-radius: 50%;
   }
@@ -248,7 +249,7 @@ input[type="text"],
     width: 23px;
     height: 23px;
     background: #42a9ed;
-    border: 3px solid #286690;
+    border: 3px solid $navbar-text-color-focus;
     cursor: pointer;
     border-radius: 50%;
   }
@@ -284,16 +285,16 @@ input[type="text"],
   vertical-align: middle;
   text-align: center;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: $primary-color;
   width: 100%;
   height: 48px;
   line-height: 48px;
   box-sizing: border-box;
   margin: 0;
   transition: background-color 0.2s;
-  border: 2px solid #3e9cdc;
+  border: 2px solid $special-color;
   font-size: 0.8rem;
-  color: #272733;
+  color: $secondary-color;
   text-transform: uppercase;
 
   &::before {
@@ -318,12 +319,12 @@ input[type="text"],
 }
 
 .field-file__text:hover {
-  background-color: #3e9cdc;
+  background-color: $special-color;
   color: $primary-color;
   border: 1px solid $primary-color;
 }
 .input-file:active span {
-  background-color: #3e9cdc;
+  background-color: $special-color;
 }
 
 .input-file input[type="file"]:disabled + span {
@@ -345,7 +346,3 @@ input[type="text"],
     max-width: 33px;
   }
 }
-
-
-
-

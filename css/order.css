@@ -1,25 +1,24 @@
-/*section order*/
-/* line 6, order.scss */
+/* line 7, order.scss */
 section#order {
   background: url("../img/order-bg.png") center no-repeat, #272733;
   width: 100%;
   padding: 8.8rem 0; }
 
-/* line 12, order.scss */
+/* line 13, order.scss */
 .steps {
   margin: 3.5rem auto 4.7rem auto; }
 
-/* line 16, order.scss */
+/* line 17, order.scss */
 .step-list {
   display: flex;
   flex-direction: row;
   justify-content: center; }
-  /* line 21, order.scss */
+  /* line 22, order.scss */
   .step-list__item {
     display: flex;
     flex-direction: column;
     z-index: 2; }
-    /* line 26, order.scss */
+    /* line 27, order.scss */
     .step-list__item::after {
       content: url("../img/icons/circle.svg");
       width: 6px;
@@ -29,10 +28,10 @@ section#order {
       top: -60%;
       filter: drop-shadow(2ch 0 0 white) drop-shadow(4ch 0 0 white) drop-shadow(6ch 0 0 white);
       z-index: 1; }
-    /* line 37, order.scss */
+    /* line 38, order.scss */
     .step-list__item:nth-last-child(1):after {
       content: none; }
-    /* line 41, order.scss */
+    /* line 42, order.scss */
     .step-list__item-img {
       width: 5.8rem;
       height: 5.8rem;
@@ -45,7 +44,7 @@ section#order {
       display: flex;
       justify-content: center;
       align-items: center; }
-    /* line 55, order.scss */
+    /* line 56, order.scss */
     .step-list__item-text {
       text-align: center;
       max-width: 188px;
@@ -54,7 +53,7 @@ section#order {
       margin: 0 auto; }
 
 /* order-form*/
-/* line 67, order.scss */
+/* line 68, order.scss */
 .order-form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -67,42 +66,42 @@ section#order {
   margin: 0 auto;
   justify-items: stretch;
   justify-content: center; }
-  /* line 83, order.scss */
+  /* line 84, order.scss */
   .order-form__field {
     width: 100%;
     justify-self: stretch;
     font-family: "Lato", sans-serif; }
-    /* line 88, order.scss */
+    /* line 89, order.scss */
     .order-form__field input:-ms-input-placeholder {
       color: #272733;
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       opacity: 1; }
-    /* line 94, order.scss */
+    /* line 95, order.scss */
     .order-form__field input::-webkit-input-placeholder {
       color: #272733;
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       opacity: 1; }
-    /* line 100, order.scss */
+    /* line 101, order.scss */
     .order-form__field input::-moz-placeholder {
       color: #272733;
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       opacity: 1; }
-    /* line 106, order.scss */
+    /* line 107, order.scss */
     .order-form__field input:-moz-placeholder {
       color: #272733;
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       opacity: 1; }
-    /* line 112, order.scss */
+    /* line 113, order.scss */
     .order-form__field input:-ms-input-placeholder {
       color: #272733;
       font-size: 1rem;
       font-family: "Lato", sans-serif;
       opacity: 1; }
-    /* line 119, order.scss */
+    /* line 120, order.scss */
     .order-form__field-select {
       -moz-appearance: none;
       -webkit-appearance: none;
@@ -112,76 +111,76 @@ section#order {
       background-position: right 0.7em top 50%, 0 0;
       background-size: 0.65em auto, 100%;
       height: auto; }
-      /* line 129, order.scss */
+      /* line 130, order.scss */
       .order-form__field-select::-ms-expand {
         display: none; }
-      /* line 132, order.scss */
+      /* line 133, order.scss */
       .order-form__field-select:hover {
         border-color: #888; }
-      /* line 135, order.scss */
+      /* line 136, order.scss */
       .order-form__field-select:focus {
         border-color: #aaa;
         box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
         box-shadow: 0 0 0 3px -moz-mac-focusring;
         color: #222;
         outline: none; }
-      /* line 142, order.scss */
+      /* line 143, order.scss */
       .order-form__field-select optgroup, .order-form__field-select option {
         font-weight: normal;
         color: #222; }
 
-/* line 151, order.scss */
+/* line 152, order.scss */
 #field-select {
   grid-area: sel;
   position: relative; }
 
-/* line 156, order.scss */
+/* line 157, order.scss */
 #field-email {
   grid-area: inp1; }
 
-/* line 160, order.scss */
+/* line 161, order.scss */
 #field-name {
   grid-area: inp2; }
 
-/* line 164, order.scss */
+/* line 165, order.scss */
 #field-range {
   grid-area: range; }
 
-/* line 168, order.scss */
+/* line 169, order.scss */
 #field-file {
   grid-area: file; }
 
-/* line 172, order.scss */
+/* line 173, order.scss */
 #field-btn {
   grid-area: btn;
   text-align: center; }
 
-/* line 176, order.scss */
+/* line 177, order.scss */
 input[type="email"]:hover,
 input[type="text"]:hover {
   background: rgba(61, 64, 80, 0.85); }
-  /* line 180, order.scss */
+  /* line 181, order.scss */
   input[type="email"]:hover:-ms-input-placeholder,
   input[type="text"]:hover:-ms-input-placeholder {
     color: #fff; }
-  /* line 183, order.scss */
+  /* line 184, order.scss */
   input[type="email"]:hover::-webkit-input-placeholder,
   input[type="text"]:hover::-webkit-input-placeholder {
     color: #fff; }
-  /* line 186, order.scss */
+  /* line 187, order.scss */
   input[type="email"]:hover::-moz-placeholder,
   input[type="text"]:hover::-moz-placeholder {
     color: #fff; }
-  /* line 189, order.scss */
+  /* line 190, order.scss */
   input[type="email"]:hover:-moz-placeholder,
   input[type="text"]:hover:-moz-placeholder {
     color: #fff; }
-  /* line 192, order.scss */
+  /* line 193, order.scss */
   input[type="email"]:hover:-ms-input-placeholder,
   input[type="text"]:hover:-ms-input-placeholder {
     color: #fff; }
 
-/* line 197, order.scss */
+/* line 198, order.scss */
 input[type="email"],
 input[type="text"],
 .order-form__field-select,
@@ -198,14 +197,14 @@ input[type="text"],
   outline: none;
   border: none; }
 
-/* line 214, order.scss */
+/* line 215, order.scss */
 *[dir="rtl"] .order-form__field-select,
 :root:lang(ar) .order-form__field-select,
 :root:lang(iw) .order-form__field-select {
   background-position: left 0.7em top 50%, 0 0;
   padding: 0.6em 0.8em 0.5em 1.4em; }
 
-/* line 221, order.scss */
+/* line 222, order.scss */
 .field-range {
   -webkit-appearance: none;
   width: 100%;
@@ -216,10 +215,10 @@ input[type="text"],
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
   padding: 0; }
-  /* line 232, order.scss */
+  /* line 233, order.scss */
   .field-range :hover {
     opacity: 1; }
-  /* line 236, order.scss */
+  /* line 237, order.scss */
   .field-range::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -229,7 +228,7 @@ input[type="text"],
     border: 3px solid #286690;
     cursor: pointer;
     border-radius: 50%; }
-  /* line 247, order.scss */
+  /* line 248, order.scss */
   .field-range::-moz-range-thumb {
     width: 23px;
     height: 23px;
@@ -238,19 +237,19 @@ input[type="text"],
     cursor: pointer;
     border-radius: 50%; }
 
-/* line 257, order.scss */
+/* line 258, order.scss */
 #percent {
   outline: none;
   -webkit-appearance: none; }
-  /* line 261, order.scss */
+  /* line 262, order.scss */
   #percent::-webkit-slider-thumb {
     -webkit-appearance: none; }
 
-/* line 266, order.scss */
+/* line 267, order.scss */
 .percent-value {
   float: right; }
 
-/* line 269, order.scss */
+/* line 270, order.scss */
 .input-file {
   position: relative;
   display: inline-block;
@@ -259,7 +258,7 @@ input[type="text"],
   border-radius: 3px;
   font-weight: 600; }
 
-/* line 278, order.scss */
+/* line 279, order.scss */
 .field-file__text {
   position: relative;
   display: inline-block;
@@ -280,14 +279,14 @@ input[type="text"],
   font-size: 0.8rem;
   color: #272733;
   text-transform: uppercase; }
-  /* line 299, order.scss */
+  /* line 300, order.scss */
   .field-file__text::before {
     content: url("../img/icons/doc.svg");
     position: relative;
     top: 14%;
     right: 10px; }
 
-/* line 307, order.scss */
+/* line 308, order.scss */
 .input-file input[type="file"] {
   position: absolute;
   z-index: -1;
@@ -295,35 +294,35 @@ input[type="text"],
   display: block;
   width: 0;
   height: 0; }
-  /* line 315, order.scss */
+  /* line 316, order.scss */
   .input-file input[type="file"]:focus + span {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
-/* line 320, order.scss */
+/* line 321, order.scss */
 .field-file__text:hover {
   background-color: #3e9cdc;
   color: #fff;
   border: 1px solid #fff; }
 
-/* line 325, order.scss */
+/* line 326, order.scss */
 .input-file:active span {
   background-color: #3e9cdc; }
 
-/* line 329, order.scss */
+/* line 330, order.scss */
 .input-file input[type="file"]:disabled + span {
   background-color: #eee; }
 
-/* line 333, order.scss */
+/* line 334, order.scss */
 .field-file__icon {
   width: 1rem; }
 
-/* line 337, order.scss */
+/* line 338, order.scss */
 .icon {
   max-width: 38px; }
-  /* line 340, order.scss */
+  /* line 341, order.scss */
   .icon-percent {
     max-width: 30px; }
-  /* line 344, order.scss */
+  /* line 345, order.scss */
   .icon-search {
     max-width: 33px; }
 
